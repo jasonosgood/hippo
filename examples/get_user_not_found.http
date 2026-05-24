@@ -1,0 +1,9 @@
+### REQUEST
+GET /users/999 HTTP/1.1
+Host: localhost:8080
+
+### RESPONSE
+HTTP/1.1 404 Not Found
+Content-Type: application/json
+
+{"error": "user not found"}
